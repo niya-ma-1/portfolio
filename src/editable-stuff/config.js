@@ -46,7 +46,7 @@ const about = {
   imageLink: require("../editable-stuff/niyama.jpeg"),
   imageSize: 375,
   message:
-    "My name is Niya. I’m a junior Computer Science and Mathematics double major at Davidson College. Some of my interests include competiting in hackathons and working on open source projects. During my free time, I like lifting, hiking, and making good food.",
+    "My name is Niya. I’m a junior Computer Science and Mathematics double major at Davidson College. Some of my interests include competing in hackathons and working on open source projects. During my free time, I like lifting, hiking, and making good food.",
   resume: "https://docs.google.com/document/d/1nOMoHweDmOJ5aeyhjtuy40ZaEw_zUykR/edit?usp=sharing&ouid=104282231297449787133&rtpof=true&sd=true",
 };
 
