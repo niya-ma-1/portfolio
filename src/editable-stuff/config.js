@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Niya",
   middleName: "",
   lastName: "Ma",
-  message: "Software Engineer",
+  message: "Software Engineer && Davidson College Student",
   icons: [
     {
       image: "fa-github",
@@ -60,30 +60,91 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "niya-ma-1", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ["vthacks2022", "pearlhacks", "vthacks", "hackviolet"],
+  specificRepos: [
+    {
+    name: "Shrüming",
+    description: "As the carbon footprint skyrockets across the states, there is a pretty neat, tasty (and fun!) fix: mushrooms. Winner of 'Best ML Hack Using Carbon Footprint Data' at VTHacks X. ",
+    repo: "https://github.com/niya-ma-1/vthacks2022",
+    youtube: "https://www.youtube.com/embed/k9FvgGbsjzE",
+    devpost: "https://devpost.com/software/shrooms-r-us",
+    keywords: ["AI/ML", "Image Classification", "Carbon Footprint", "PyTorch", "React", "Google Maps API"]
+    }, 
+    {
+      name: "Tutana AI",
+      description: "TutanaAI is a website that allows students to write their college essays using the OpenAI davinci_003 model. Work-in-progress.",
+      repo: "https://github.com/olsenbudanur/BisonHacks2022",
+      youtube: "https://www.youtube.com/embed/5dIJss2OCpk",
+      devpost: "https://https://devpost.com/software/waitfree-dmv.com/software/codeviolet",
+      keywords: ["AI/ML", 'React', 'Firebase', 'Stripe',]
+    }, 
+    {
+      name: "WaitFree DMV!",
+      description: "Online DMV appointments made accessible, simple, and easy. 3rd Place at Bison Hacks 2022. ",
+      repo: "https://github.com/olsenbudanur/BisonHacks2022",
+      youtube: "https://www.youtube.com/embed/5dIJss2OCpk",
+      devpost: "https://https://devpost.com/software/waitfree-dmv.com/software/codeviolet",
+      keywords: ['Chromium', 'Firebase', 'Selenium', 'Twilio', 'Bash', 'React', 'Google Maps API']
+    }, 
+    {
+      name: "BlockAide",
+      description: "Lift Unjust Blockades with BlockAide, and Democratize the Crowdfunding Process For All! Winner of 'Designed for Security and Privacy' at VTHacks IX.",
+      repo: "https://github.com/niya-ma-1/vthacks",
+      youtube: "https://www.youtube.com/embed/0THBjjaEsEk",
+      devpost: "https://devpost.com/software/initial-post",
+      keywords: ['Auth0', 'React', "Ethereum", "Firebase", "MetaMask", "Solidity"]
+    }, 
+    {
+      name: "B-LOT",
+      description: "Ever wonder who won the lottery? B-LOT is here to publicize the lottery transaction. B-LOT is implemented with block-chain, firebase, and Nessi. Winner of 'Most Creative Use of Automation' at Pearl Hacks 2022",
+      repo: "https://github.com/niya-ma-1/pearlhacks",
+      youtube: "https://www.youtube.com/embed/TMr-uPn0_gQ",
+      devpost: "https://devpost.com/software/b-lot",
+      keywords: ['Capital One Nessi', 'Firebase', "React", "Stellar"]
+    }, 
+    {
+      name: "CodeViolet",
+      description: "Hackathon project for HackViolet 2022. Winner of 'Most Customer Focused' category.",
+      repo: "https://github.com/niya-ma-1/hackviolet",
+      youtube: "https://www.youtube.com/embed/aRbOfZL9ZO4",
+      devpost: "https://devpost.com/software/codeviolet",
+      keywords: ['Firebase', 'React Native']
+    }, 
+  ]
 };
 
 // Leadership SECTION
 const leadership = {
   show: true,
   heading: "Leadership",
-  message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+  message:[
+    {
+      name: "Competitive Coding at Davidson - Vice President",
+      link: "https://c-ca-davidson.wixsite.com/website",
+      role: "Founded the first competitive coding club at Davidson College with 80+ members. Hold weekly meetings to discuss coding problems and bi-weekly coding challenges.",
+    },
+    {
+      name: "Association for Women in Mathematics, Davidson College Chapter - President",
+      link: "",
+      role: "Hold monthly programs to promote equal opportunities for women and nonbinary students."
+
+    }
+  ]
+    ,
   images: [
     { 
-      img: require("../editable-stuff/niyama.jpeg"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../assets/img/photo1.JPG"), 
+      label: "VTHacks X with CCAD Members", 
+      paragraph: "" 
     },
     { 
-      img: require("../editable-stuff/niyama.jpeg"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../assets/img/photo2.jpg"), 
+      label: "Women in Math coffee chat", 
+      paragraph: "" 
     },
   ],
   imageSize: {
     width:"615",
-    height:"450"
+    height:"500"
   }
 };
 
@@ -92,25 +153,21 @@ const skills = {
   show: true,
   heading: "Technical Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
-  ],
-  softSkills: [
-  //   { name: "Goal-Oriented", value: 80 },
-  //   { name: "Collaboration", value: 90 },
-  //   { name: "Positivity", value: 75 },
-  //   { name: "Adaptability", value: 85 },
-  //   { name: "Problem Solving", value: 75 },
-  //   { name: "Empathy", value: 90 },
-  //   { name: "Organization", value: 70 },
-  //   { name: "Creativity", value: 90 },
-  ],
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original-wordmark.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/julia/julia-original-wordmark.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+    
+
+  ]
 };
 
 // GET IN TOUCH SECTION
@@ -127,21 +184,17 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Software Development Engineering Intern',// Here Add Company Name
+      companylogo: require('../assets/img/qualtrics.png'),
+      date: 'May 2022 - August 2022',
     },
     {
       role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      companylogo: require('../assets/img/piie.jpeg'),
+      date: 'September 2021 - November 2021',
     },
   ]
 }
 
-// Blog SECTION
-// const blog = {
-//   show: false,
-// };
 
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };

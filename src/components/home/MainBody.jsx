@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Typist from 'react-typist-component';
 import { Jumbotron } from "./migration";
+import { about } from "../../editable-stuff/config.js";
 
 const MainBody = React.forwardRef(
   ({ gradient, title, message, icons }, ref) => {
@@ -39,12 +40,14 @@ const MainBody = React.forwardRef(
             ))}
           </div>
           <a
-            className="btn btn-outline-light btn-lg "
-            href="#aboutme"
+            className="btn btn-outline-dark btn-lg"
+            href={about.resume}
+            target="_blank"
+            rel="noreferrer noopener"
             role="button"
-            aria-label="Learn more about me"
+            aria-label="Resume/CV"
           >
-            More about me
+            Resume
           </a>
         </Container>
       </Jumbotron>

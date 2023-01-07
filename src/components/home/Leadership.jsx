@@ -12,7 +12,16 @@ const Leadership = ({ heading, message, img, imageSize }) => {
       <h2 className="display-4 pb-5 text-center">{heading}</h2>
       <div className="row">
         <div className="col-md-5">
-          <p className="lead">{message}</p>
+          {/* <p className="lead">{message}</p> */}
+          {message.map((value, index) => {
+            return (
+            <div>
+            <h4> {(!value.link) ? value.name : <a href={value.link}>{value.name}</a>}</h4>
+            <h2 className="lead">{value.role}</h2>
+            <br></br>
+            </div>
+            )
+          })}
         </div>
         <div className="col-md-7">
           <Carousel>
