@@ -109,6 +109,20 @@ const repos = {
       devpost: "https://devpost.com/software/codeviolet",
       keywords: ['Firebase', 'React Native']
     }, 
+    {
+      name: "Highlight of My Day",
+      description: "Raspberry Pi project built using sensors and Python. Whenever the PIR(passive infrared) sensor detect motion, this device speaks a random compliment as well as the current weather.",
+      repo: "https://github.com/niya-ma-1/PComp_Project1",
+      youtube: "https://youtube.com/shorts/MaI5Kzr2nR8?feature=share",
+      keywords: ['Raspberry Pi', 'Motion Sensor', 'DIY Amp', 'Google gTTS']
+    }, 
+    {
+      name: "Home Security System",
+      description: "Raspberry Pi project built using sensors and Python. When motion is detected, trigger an alarm system that plays an alarm audio, flashes LED light strip red, waits for password input (using a knock sensor), and sends a signal to another device that will trigger a nerf gun and take a photo of the intruder..",
+      repo: "https://github.com/niya-ma-1/PComp_Project2",
+      youtube: "https://youtu.be/yhbOVKLq0LU",
+      keywords: ['Raspberry Pi', 'Motion Sensor', 'Knock Sensor', 'Networking']
+    }, 
   ]
 };
 
