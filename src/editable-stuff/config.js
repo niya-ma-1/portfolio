@@ -113,14 +113,14 @@ const repos = {
       name: "Highlight of My Day",
       description: "Raspberry Pi project built using sensors and Python. Whenever the PIR(passive infrared) sensor detect motion, this device speaks a random compliment as well as the current weather.",
       repo: "https://github.com/niya-ma-1/PComp_Project1",
-      youtube: "https://youtube.com/shorts/MaI5Kzr2nR8?feature=share",
+      youtube: "https://www.youtube.com/embed/MaI5Kzr2nR8",
       keywords: ['Raspberry Pi', 'Motion Sensor', 'DIY Amp', 'Google gTTS']
     }, 
     {
       name: "Home Security System",
       description: "Raspberry Pi project built using sensors and Python. When motion is detected, trigger an alarm system that plays an alarm audio, flashes LED light strip red, waits for password input (using a knock sensor), and sends a signal to another device that will trigger a nerf gun and take a photo of the intruder..",
       repo: "https://github.com/niya-ma-1/PComp_Project2",
-      youtube: "https://youtu.be/yhbOVKLq0LU",
+      youtube: "https://www.youtube.com/embed/yhbOVKLq0LU",
       keywords: ['Raspberry Pi', 'Motion Sensor', 'Knock Sensor', 'Networking']
     }, 
   ]
@@ -132,29 +132,33 @@ const leadership = {
   heading: "Leadership",
   message:[
     {
-      name: "Competitive Coding at Davidson - Vice President",
+      name: "Hack@Davidson - President",
       link: "https://c-ca-davidson.wixsite.com/website",
-      role: "Founded the first competitive coding club at Davidson College with 80+ members. Hold weekly meetings to discuss coding problems and bi-weekly coding challenges.",
+      role: "Co-founded the first student-led hackathon at Davidson College with 90+ registrations and over $6k raised.",
     },
     {
       name: "Association for Women in Mathematics, Davidson College Chapter - President",
       link: "",
       role: "Hold monthly programs to promote equal opportunities for women and nonbinary students."
-
     }
   ]
     ,
   images: [
+    {
+      img: require("../assets/img/opening_ceremony.jpeg"), 
+      label: "Hack@Davidson Opening Ceremony", 
+      paragraph: "" 
+    },
     { 
-      img: require("../assets/img/photo1.JPG"), 
+      img: require("../assets/img/Hack_Davidson_team.jpeg"), 
       label: "VTHacks X with CCAD Members", 
       paragraph: "" 
     },
     { 
-      img: require("../assets/img/photo2.jpg"), 
-      label: "Women in Math coffee chat", 
+      img: require("../assets/img/photo1.JPG"), 
+      label: "VTHacks X with Hack@Davidson Members", 
       paragraph: "" 
-    },
+    }
   ],
   imageSize: {
     width:"615",
@@ -169,6 +173,7 @@ const skills = {
   hardSkills: [
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg",
+    "https://github.com/devicons/devicon/blob/v2.15.1/icons/raspberrypi/raspberrypi-original.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original-wordmark.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
@@ -179,8 +184,6 @@ const skills = {
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/julia/julia-original-wordmark.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
-    
-
   ]
 };
 
@@ -199,6 +202,11 @@ const experiences = {
   data: [
     {
       role: 'Software Development Engineering Intern',// Here Add Company Name
+      companylogo: require('../assets/img/oracle_logo.jpg'),
+      date: 'May 2023 - August 2023',
+    },
+    {
+      role: 'Software Engineer Intern',// Here Add Company Name
       companylogo: require('../assets/img/qualtrics.png'),
       date: 'May 2022 - August 2022',
     },
