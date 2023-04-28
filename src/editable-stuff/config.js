@@ -118,7 +118,7 @@ const repos = {
     }, 
     {
       name: "Home Security System",
-      description: "Raspberry Pi project built using sensors and Python. When motion is detected, trigger an alarm system that plays an alarm audio, flashes LED light strip red, waits for password input (using a knock sensor), and sends a signal to another device that will trigger a nerf gun and take a photo of the intruder..",
+      description: "Raspberry Pi project built using sensors and Python. When motion is detected, trigger an alarm system that plays an alarm audio, flashes LED light strip red, waits for password input (using a knock sensor), and sends a signal to another device that will trigger a nerf gun and take a photo of the intruder.",
       repo: "https://github.com/niya-ma-1/PComp_Project2",
       youtube: "https://www.youtube.com/embed/yhbOVKLq0LU",
       keywords: ['Raspberry Pi', 'Motion Sensor', 'Knock Sensor', 'Networking']
