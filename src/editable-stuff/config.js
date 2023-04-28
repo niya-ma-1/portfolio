@@ -201,12 +201,12 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Development Engineering Intern',// Here Add Company Name
+      role: 'Software Engineer Intern',// Here Add Company Name
       companylogo: require('../assets/img/oracle_logo.jpg'),
       date: 'May 2023 - August 2023',
     },
     {
-      role: 'Software Engineer Intern',// Here Add Company Name
+      role: 'Software Development Engineering Intern',// Here Add Company Name
       companylogo: require('../assets/img/qualtrics.png'),
       date: 'May 2022 - August 2022',
     },
