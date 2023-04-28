@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.778eeed7.css",
-    "main.js": "/static/js/main.c93aa01e.js",
+    "main.js": "/static/js/main.9aa14f62.js",
     "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
     "static/media/photo1.JPG": "/static/media/photo1.7f81ff01a2bf914a3300.JPG",
-    "static/media/photo2.jpg": "/static/media/photo2.7f0887dab99603846fec.jpg",
+    "static/media/Hack_Davidson_team.jpeg": "/static/media/Hack_Davidson_team.3ddb3346554a97417e5e.jpeg",
+    "static/media/opening_ceremony.jpeg": "/static/media/opening_ceremony.605138cb31967ddc27ec.jpeg",
     "static/media/niyama.jpeg": "/static/media/niyama.7aadc5e4ecb618aba254.jpeg",
+    "static/media/oracle_logo.jpg": "/static/media/oracle_logo.527d3162ce9bcb7fda1f.jpg",
     "static/media/qualtrics.png": "/static/media/qualtrics.30132589ccf646ffc01a.png",
     "index.html": "/index.html",
     "main.778eeed7.css.map": "/static/css/main.778eeed7.css.map",
-    "main.c93aa01e.js.map": "/static/js/main.c93aa01e.js.map",
+    "main.9aa14f62.js.map": "/static/js/main.9aa14f62.js.map",
     "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.778eeed7.css",
-    "static/js/main.c93aa01e.js"
+    "static/js/main.9aa14f62.js"
   ]
 }
