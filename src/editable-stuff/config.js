@@ -46,7 +46,7 @@ const about = {
   imageLink: require("../editable-stuff/niyama.jpeg"),
   imageSize: 375,
   message:
-    "My name is Niya. I’m a junior Computer Science and Mathematics double major at Davidson College. Some of my interests include competing in hackathons and working on open source projects. During my free time, I like lifting, hiking, and making good food.",
+  "Hi! This is Niya. I’m a senior Computer Science and Mathematics double major at Davidson College seeking full-time software engineering roles. Some of my interests include competiting at hackathons and collecting math-themed things.",
   resume: "https://docs.google.com/document/d/1OFb5jVPRLUe1R7rrh-FlU7suYRPkuzYkQyp_WwNsr9c/edit?usp=sharing",
 };
 
@@ -61,6 +61,13 @@ const repos = {
   gitHubUsername: "niya-ma-1", //i.e."johnDoe12Gh"
   reposLength: 0,
   specificRepos: [
+    {name: "CLL{AI}M Finder",
+    description: "CLL{AI}M Finder allows attorneys to search consumer complaints using semantic search and chat with a LLM Chatbot about case-specific questions. Winner of 'Best Use of Wolfram' at Stanford LLM x Law Hackathon ",
+    repo: "https://github.com/olsenbudanur/LawXLLM_Stanford",
+    youtube: "https://www.youtube.com/embed/Qb4VvKY4TBE?si=l8zVXXrgTUVPLdKU",
+    devpost: "",
+    keywords: ["AI/ML", "Semantic Search", "Text Embedding", "LangChain", "OpenAI API"]
+    }, 
     {
     name: "Shrüming",
     description: "As the carbon footprint skyrockets across the states, there is a pretty neat, tasty (and fun!) fix: mushrooms. Winner of 'Best ML Hack Using Carbon Footprint Data' at VTHacks X. ",
@@ -146,12 +153,12 @@ const leadership = {
   images: [
     {
       img: require("../assets/img/opening_ceremony.jpeg"), 
-      label: "Hack@Davidson Opening Ceremony", 
+      label: "Hack@Davidson 2023 Opening Ceremony", 
       paragraph: "" 
     },
     { 
       img: require("../assets/img/Hack_Davidson_team.jpeg"), 
-      label: "VTHacks X with CCAD Members", 
+      label: "Hack@Davidson 2023 Organizers", 
       paragraph: "" 
     },
     { 
@@ -201,12 +208,12 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer Intern',// Here Add Company Name
+      role: 'Software Engineer Intern, QE Automation',// Here Add Company Name
       companylogo: require('../assets/img/oracle_logo.jpg'),
       date: 'May 2023 - August 2023',
     },
     {
-      role: 'Software Development Engineering Intern',// Here Add Company Name
+      role: 'Software Development Engineering Intern, Developer Experience',// Here Add Company Name
       companylogo: require('../assets/img/qualtrics.png'),
       date: 'May 2022 - August 2022',
     },
